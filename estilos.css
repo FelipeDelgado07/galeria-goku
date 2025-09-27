@@ -1,179 +1,203 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-body {
-  font-family: "Montserrat", sans-serif;
-}
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
 
-/* Galería base */
-.contenedor {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 40px;
-}
+  .contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
 
-.card {
-  width: 320px;
-  background-color: #f2f2f2;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 8px;
-  border: solid 0.5px #cbc3c3;
-  display: inline-block;
-}
+  .card {
+    width: 320px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: solid 0.5px #cbc3c3;
+    display: inline-block;
+  }
 
-.card img {
-  display: block;
-  max-height: 280px;
-  margin: 16px auto;
-  filter: drop-shadow(2px 0px 8px #515151);
-}
+  .card img {
+    display: block;
+    max-height: 280px;
+    margin: 16px auto;
+    filter: drop-shadow(2px 0px 8px #515151);
+  }
 
-.card h2 {
-  margin-top: 2px;
-  margin-bottom: 8px;
-  color: #373737;
-  text-align: center;
-}
+  .card h2 {
+    margin-top: 2px;
+    margin-bottom: 8px;
+    color: #373737;
+    text-align: center;
+  }
 
-.card p {
-  font-size: 16px;
-  color: #515151;
-  text-align: center;
-}
+  .card p {
+    font-size: 16px;
+    color: #515151;
+    text-align: center;
+  }
 
-/* ======= ACTIVIDADES ======= */
+  .p1 {
+    background-color: coral;
+  }
 
-/* 1. Colores hexadecimales */
-.punto1 {
-  background-color: #00ffff;
-  /* aqua */
-}
+  .p2-1 {
+    background-color: rgb(55, 22, 11);
+  }
 
-/* 2. 5 componentes con combinación RGB */
-.punto2-1 {
-  background-color: rgb(10, 20, 30);
-}
+  .p2-2 {
+    background-color: rgb(33, 11, 33);
+  }
 
-.punto2-2 {
-  background-color: rgb(20, 30, 40);
-}
+  .p2-3 {
+    background-color: rgb(44, 55, 88);
+  }
 
-.punto2-3 {
-  background-color: rgb(85, 45, 78);
-}
+  .p2-4 {
+    background-color: rgb(66, 44, 99);
+  }
 
-.punto2-4 {
-  background-color: rgb(97, 125, 148);
-}
+  .p2-5 {
+    background-color: rgb(25, 68, 31);
+  }
 
-.punto2-5 {
-  background-color: rgb(65, 25, 88);
-}
+  .p3 {
+    background-color: rgba(196, 70, 70, 0.5);
+  }
 
-/* 3. Fondo rgba transparente en la galería */
-.contenedor3 {
-  background-color: rgba(85, 45, 78, 0.6);
-  padding: 20px;
-  border-radius: 20px;
-}
+  .p4 {
+    background-image: url(characters/rct.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
-/* 4. Imagen de fondo */
-.contenedor3 {
-  background-image: url('characters/Beerus_DBS_Broly_Artwork.webp');
-  background-repeat: no-repeat;
-}
+  .p5 {
+    background-image: url(characters/rct.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
 
-/* 5. Posición del fondo */
-.contenedor3 {
-  background-position: center top;
-}
+  .p6 {
+    background-image: url(characters/rct.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20cm;
+  }
 
-/* 6. Tamaño del fondo */
-.contenedor3 {
-  background-size: cover;
-}
+  .p7 {
+    background-image: url(characters/rct.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 
-/* 7. Efecto scroll con background-attachment */
-.contenedor3 {
-  background-attachment: fixed;
-}
+  }
 
-/* 8. Gradiente lineal */
-.punto6 {
-  background: linear-gradient(45deg, #ff0000, #0000ff);
-}
+  .p8 {
+    background: linear-gradient(to right, green, yellow, blue, red, black);
 
-/* 9. Gradiente radial */
-.punto7 {
-  background: radial-gradient(circle, #00ff00, #000000);
-}
+  }
 
-/* 10. Estilos de texto */
-.punto8 h2 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  text-shadow: 2px 2px 5px #000;
-}
+  .p9 {
+    background: radial-gradient(ellipse at center, green, yellow, blue, red, black)
+  }
 
-/* 11. Fuente personalizada (Google Fonts ya importada arriba) */
-.punto9 {
-  font-family: "Montserrat", sans-serif;
-}
+  .p10 {
+    text-transform: uppercase;
+    letter-spacing: 0.5cm;
+    text-shadow: 2px 2px 3px #d40909;
+  }
 
-/* 12. Cambiar tamaño y estilo de fuente */
-.punto10 h2 {
-  font-size: 24px;
-  font-style: italic;
-  font-weight: bold;
-}
+  .p11 {
+    font-family: 'Bitcount Single Ink', sans-serif;
+    font-size: 40px;
+  }
 
-/* 13. Unidades rem en párrafos */
-.punto11 p {
-  font-size: 1.2rem;
-}
+  .p12 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
 
-/* 14. Margen y padding con em */
-.punto12 {
-  margin: 2em;
-  padding: 1.5em;
-}
+  }
 
-/* 15. Comparación px vs em vs rem */
-.punto13 {
-  font-size: 16px;
-  /* px */
-}
+  .p13 p {
+    font-size: 2rem;
+  }
 
-.punto13 p {
-  font-size: 1em;
-  /* relativo al contenedor */
-}
+  .p14 {
+    margin: 3em !important;
+    /* fuerza el cambio */
+    padding: 3em !important;
+  }
 
-.punto13 h2 {
-  font-size: 1rem;
-  /* relativo al root */
-}
+  .p15 .px {
+    font-size: 16px;
+    /* tamaño fijo */
+    margin-bottom: 0.5em;
+  }
 
-/* 16. vh y vw */
-.contenedor3 {
-  width: 90vw;
-  height: 80vh;
-}
+  .p15 .em {
+    font-size: 1em;
+    /* relativo al contenedor -> 20px */
+    margin-bottom: 1em;
+  }
 
-/* 17. Imagen con max-width y height auto */
-.punto14 img {
-  max-width: 100%;
-  height: auto;
-}
+  .p15 .rem {
+    font-size: 1rem;
+    /* relativo al html -> 16px */
+    margin-bottom: 1em;
+  }
 
-/* 18. object-fit */
-.punto15 img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
+  .contenedor3 {
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    padding: 1vh;
+    overflow-y: auto;
+    margin: 2vh auto;
+    background-color: rgba(185, 30, 30, 0.2);
+    /* temporal para ver cambios */
+  }
+
+
+  .p17 {
+
+
+    width: 80%;
+    /* ancho del contenedor */
+    margin: 0 auto;
+    /* centra la imagen */
+    text-align: center;
+
+
+
+    max-width: 100%;
+    /* no excede el ancho del contenedor */
+    height: auto;
+    /* mantiene la proporción */
+    border-radius: 8px;
+    /* opcional, bordes redondeados */
+    display: block;
+    margin: 0 auto;
+    /* centra la imagen horizontalmente */
+
+  }
+
+  .p18 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* recorta y llena la card sin deformar */
+    border-radius: 8px;
+  }
