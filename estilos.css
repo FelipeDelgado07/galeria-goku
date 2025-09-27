@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   font-family: "Montserrat", sans-serif;
 }
-.contenedor{
+
+/* Galería base */
+.contenedor {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 40px;
 }
-.card{
+
+.card {
   width: 320px;
   background-color: #f2f2f2;
   padding: 10px;
@@ -21,21 +25,155 @@ body{
   border: solid 0.5px #cbc3c3;
   display: inline-block;
 }
-.card img{
+
+.card img {
   display: block;
   max-height: 280px;
   margin: 16px auto;
   filter: drop-shadow(2px 0px 8px #515151);
 }
-.card h2{
+
+.card h2 {
   margin-top: 2px;
   margin-bottom: 8px;
   color: #373737;
   text-align: center;
 }
-.card p{
+
+.card p {
   font-size: 16px;
   color: #515151;
   text-align: center;
 }
 
+/* ======= ACTIVIDADES ======= */
+
+/* 1. Colores hexadecimales */
+.punto1 {
+  background-color: #00ffff;
+  /* aqua */
+}
+
+/* 2. 5 componentes con combinación RGB */
+.punto2-1 {
+  background-color: rgb(10, 20, 30);
+}
+
+.punto2-2 {
+  background-color: rgb(20, 30, 40);
+}
+
+.punto2-3 {
+  background-color: rgb(85, 45, 78);
+}
+
+.punto2-4 {
+  background-color: rgb(97, 125, 148);
+}
+
+.punto2-5 {
+  background-color: rgb(65, 25, 88);
+}
+
+/* 3. Fondo rgba transparente en la galería */
+.contenedor3 {
+  background-color: rgba(85, 45, 78, 0.6);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* 4. Imagen de fondo */
+.contenedor3 {
+  background-image: url('characters/Beerus_DBS_Broly_Artwork.webp');
+  background-repeat: no-repeat;
+}
+
+/* 5. Posición del fondo */
+.contenedor3 {
+  background-position: center top;
+}
+
+/* 6. Tamaño del fondo */
+.contenedor3 {
+  background-size: cover;
+}
+
+/* 7. Efecto scroll con background-attachment */
+.contenedor3 {
+  background-attachment: fixed;
+}
+
+/* 8. Gradiente lineal */
+.punto6 {
+  background: linear-gradient(45deg, #ff0000, #0000ff);
+}
+
+/* 9. Gradiente radial */
+.punto7 {
+  background: radial-gradient(circle, #00ff00, #000000);
+}
+
+/* 10. Estilos de texto */
+.punto8 h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+/* 11. Fuente personalizada (Google Fonts ya importada arriba) */
+.punto9 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* 12. Cambiar tamaño y estilo de fuente */
+.punto10 h2 {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* 13. Unidades rem en párrafos */
+.punto11 p {
+  font-size: 1.2rem;
+}
+
+/* 14. Margen y padding con em */
+.punto12 {
+  margin: 2em;
+  padding: 1.5em;
+}
+
+/* 15. Comparación px vs em vs rem */
+.punto13 {
+  font-size: 16px;
+  /* px */
+}
+
+.punto13 p {
+  font-size: 1em;
+  /* relativo al contenedor */
+}
+
+.punto13 h2 {
+  font-size: 1rem;
+  /* relativo al root */
+}
+
+/* 16. vh y vw */
+.contenedor3 {
+  width: 90vw;
+  height: 80vh;
+}
+
+/* 17. Imagen con max-width y height auto */
+.punto14 img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 18. object-fit */
+.punto15 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
